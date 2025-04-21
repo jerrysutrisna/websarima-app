@@ -14,7 +14,7 @@ st.set_page_config(page_title="Barang Forecasting", page_icon="📊")
 
 # Sidebar informasi
 with st.sidebar:
-    st.image("logo.png", width=150)
+    st.image("assets/logo.png", width=150)
     st.markdown("""
     ### ℹ️ Tentang Aplikasi
     Aplikasi ini memprediksi **permintaan produk** berdasarkan data historis menggunakan model **SARIMA**.
